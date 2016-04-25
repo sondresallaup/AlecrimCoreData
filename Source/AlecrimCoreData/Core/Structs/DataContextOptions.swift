@@ -120,7 +120,7 @@ extension NSBundle {
     /// This variable is used to guess a managedObjectModelName.
     /// The provided kCFBundleNameKey we are using to determine the name will include spaces, whereas managed object model name uses underscores in place of spaces by default - hence why we are replacing " " with "_" here
     private var inferredManagedObjectModelName: String? {
-        return "Toktok_Kl_r"
+        return "Toktok_Kl_rP"
 //        return (self.infoDictionary?[String(kCFBundleNameKey)] as? String)?.stringByReplacingOccurrencesOfString(" ", withString: "_")
     }
     
